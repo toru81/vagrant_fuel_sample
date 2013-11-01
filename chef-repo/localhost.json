@@ -1,0 +1,10 @@
+// localhost.json
+{
+  "run_list" : [
+    "recipe[iptables]",
+    "recipe[php]",
+    "recipe[apache]",
+    "recipe[mysql]",
+    "recipe[fuelphp]"
+  ]
+}
